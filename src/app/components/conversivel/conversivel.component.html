@@ -1,1 +1,9 @@
-<p>conversivel works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let conversivel of conversiveis">
+        <img class="imgJustfy" [src]="conversivel.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{conversivel.tipe}} </h4>
+        <h5 class="cardDescription">{{conversivel.name}}</h5>
+        <p class="valor">{{conversivel.price}}</p>
+    </div>
+</div>

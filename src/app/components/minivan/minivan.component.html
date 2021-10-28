@@ -1,1 +1,9 @@
-<p>minivan works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let minivan of minivans">
+        <img class="imgJustfy" [src]="minivan.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{minivan.tipe}} </h4>
+        <h5 class="cardDescription">{{minivan.name}}</h5>
+        <p class="valor">{{minivan.price}}</p>
+    </div>
+</div>

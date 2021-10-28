@@ -1,1 +1,9 @@
-<p>van works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let van of vans">
+        <img class="imgJustfy" [src]="van.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{van.tipe}} </h4>
+        <h5 class="cardDescription">{{van.name}}</h5>
+        <p class="valor">{{van.price}}</p>
+    </div>
+</div>

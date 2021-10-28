@@ -1,1 +1,9 @@
-<p>cupe works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let cupe of cupes">
+        <img class="imgJustfy" [src]="cupe.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{cupe.tipe}} </h4>
+        <h5 class="cardDescription">{{cupe.name}}</h5>
+        <p class="valor">{{cupe.price}}</p>
+    </div>
+</div>

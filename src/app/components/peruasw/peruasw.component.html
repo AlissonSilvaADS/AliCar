@@ -1,0 +1,9 @@
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let peruasw of peruasws">
+        <img class="imgJustfy" [src]="peruasw.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{peruasw.tipe}} </h4>
+        <h5 class="cardDescription">{{peruasw.name}}</h5>
+        <p class="valor">{{peruasw.price}}</p>
+    </div>
+</div>

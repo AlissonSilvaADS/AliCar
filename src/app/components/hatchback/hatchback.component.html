@@ -1,1 +1,9 @@
-<p>hatchback works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let hatchback of hatchbacks">
+        <img class="imgJustfy" [src]="hatchback.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{hatchback.tipe}} </h4>
+        <h5 class="cardDescription">{{hatchback.name}}</h5>
+        <p class="valor">{{hatchback.price}}</p>
+    </div>
+</div>

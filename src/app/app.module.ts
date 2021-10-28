@@ -7,12 +7,14 @@ import { BuggyComponent } from './components/buggy/buggy.component';
 import { ConversivelComponent } from './components/conversivel/conversivel.component';
 import { HatchbackComponent } from './components/hatchback/hatchback.component';
 import { CupeComponent } from './components/cupe/cupe.component';
-import { MinivanComponent } from './components/minivan/minivan.component';
-import { PeruaSwComponent } from './components/perua-sw/perua-sw.component';
+import { MinivanComponent } from './components/minivan/minivan.component'
+import { PeruaswComponent } from './components/peruasw/peruasw.component';;
 import { PicapeComponent } from './components/picape/picape.component';
 import { SedaComponent } from './components/seda/seda.component';
 import { VanComponent } from './components/utilitarios/van/van.component';
 import { EsportivoComponent } from './components/utilitarios/esportivo/esportivo.component';
+
+
 
 @NgModule({
   declarations: [
@@ -22,11 +24,12 @@ import { EsportivoComponent } from './components/utilitarios/esportivo/esportivo
     HatchbackComponent,
     CupeComponent,
     MinivanComponent,
-    PeruaSwComponent,
+    PeruaswComponent,
     PicapeComponent,
     SedaComponent,
     VanComponent,
-    EsportivoComponent
+    EsportivoComponent,
+    PeruaswComponent,
   ],
   imports: [
     BrowserModule,

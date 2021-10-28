@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PeruaSwComponent } from './perua-sw.component';
+import { PeruaswComponent } from './peruasw.component';
 
-describe('PeruaSwComponent', () => {
-  let component: PeruaSwComponent;
-  let fixture: ComponentFixture<PeruaSwComponent>;
+describe('PeruaswComponent', () => {
+  let component: PeruaswComponent;
+  let fixture: ComponentFixture<PeruaswComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PeruaSwComponent ]
+      declarations: [ PeruaswComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PeruaSwComponent);
+    fixture = TestBed.createComponent(PeruaswComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

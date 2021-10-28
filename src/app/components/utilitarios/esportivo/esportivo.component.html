@@ -1,1 +1,9 @@
-<p>esportivo works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let esportivo of esportivos">
+        <img class="imgJustfy" [src]="esportivo.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{esportivo.tipe}} </h4>
+        <h5 class="cardDescription">{{esportivo.name}}</h5>
+        <p class="valor">{{esportivo.price}}</p>
+    </div>
+</div>

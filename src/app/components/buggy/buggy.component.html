@@ -1,1 +1,9 @@
-<p>buggy works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let buggy of buggys">
+        <img class="imgJustfy" [src]="buggy.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{buggy.tipe}} </h4>
+        <h5 class="cardDescription">{{buggy.name}}</h5>
+        <p class="valor">{{buggy.price}}</p>
+    </div>
+</div>

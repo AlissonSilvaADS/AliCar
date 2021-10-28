@@ -1,1 +1,9 @@
-<p>seda works!</p>
+
+<div class="container">
+    <div class="contorno cardSpace" *ngFor="let seda of sedas">
+        <img class="imgJustfy" [src]="seda.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{seda.tipe}} </h4>
+        <h5 class="cardDescription">{{seda.name}}</h5>
+        <p class="valor">{{seda.price}}</p>
+    </div>
+</div>
