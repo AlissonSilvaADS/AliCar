@@ -13,6 +13,7 @@ import { PicapeComponent } from './components/picape/picape.component';
 import { SedaComponent } from './components/seda/seda.component';
 import { VanComponent } from './components/utilitarios/van/van.component';
 import { EsportivoComponent } from './components/utilitarios/esportivo/esportivo.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 
@@ -30,6 +31,7 @@ import { EsportivoComponent } from './components/utilitarios/esportivo/esportivo
     VanComponent,
     EsportivoComponent,
     PeruaswComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

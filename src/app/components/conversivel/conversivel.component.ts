@@ -62,6 +62,12 @@ export class ConversivelComponent implements OnInit {
       name: 'Porsche 9113.0 24v h6 gasolina carrera s cabriolet pdk',
       price: 'R$ 1.290.000',
     },
+    {
+      tipe: 'Conversivel',
+      pathImage: 'assets/Conversivel/porsche-911-3.8-cabriolet-turbo-s-gasolina-2p-automatico-RS-1.270.000.jpg',
+      name: 'Porsche 9113.0 24v h6 gasolina carrera s cabriolet pdk',
+      price: 'R$ 1.270.000',
+    },
   ]
   constructor() { }
 
