@@ -14,6 +14,7 @@ import { SedaComponent } from './components/seda/seda.component';
 import { VanComponent } from './components/utilitarios/van/van.component';
 import { EsportivoComponent } from './components/utilitarios/esportivo/esportivo.component';
 import { MenuComponent } from './menu/menu.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -32,6 +33,7 @@ import { MenuComponent } from './menu/menu.component';
     EsportivoComponent,
     PeruaswComponent,
     MenuComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

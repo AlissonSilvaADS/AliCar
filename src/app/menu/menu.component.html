@@ -3,7 +3,7 @@
         <h6>AliCar</h6>
         <p>Carros Novos e Seminovos</p>
         <li class="nav-item">
-            <a class="nav-link " href="#">Buggy</a>
+            <a class="nav-link " [routerLink]="['/Buggy']" routerLinkActive="active">Buggy</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Conversivel</a>
@@ -34,16 +34,6 @@
         </details>
     </ul>
     <div class="content-wrapper">
-        <app-buggy></app-buggy>
-        <app-conversivel></app-conversivel>
-        <app-cupe></app-cupe>
-        <app-hatchback></app-hatchback>
-        <app-minivan></app-minivan>
-        <app-peruasw></app-peruasw>
-        <app-picape></app-picape>
-        <app-seda></app-seda>
-        <app-esportivo></app-esportivo>
-        <app-van></app-van>
         <router-outlet></router-outlet>
     </div>
 </div>
