@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "alicar-2a518": {
+      "hosting": {
+        "AliCar": [
+          "alicar-2a518"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "alicar-2a518"
+  }
+}
